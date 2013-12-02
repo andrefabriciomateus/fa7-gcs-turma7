@@ -1,3 +1,0 @@
-Teste novamente
-
-Alteração realizada com sucesso referente a issue GCS-21
