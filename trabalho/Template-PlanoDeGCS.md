@@ -13,8 +13,8 @@ Histórico de Versões
 |Data                |Versão       |Descrição               |Autor          |
 |--------------------|-------------|------------------------|---------------|
 |04/12/2013|1.0|Versão inicial|André Castro Alves
-|_&lt;dd/mm/aaaa&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;autor&gt;_|
-
+|05/12/2013|2.0|Alteração Seção 2|André Castro Alves
+|06/12/2013|2.1|Finalizada Seção 2 |André Castro Alves
 
 
 1. Introdução
@@ -41,18 +41,16 @@ de um projeto. O objetivo de uma baseline é servir de referência para o gerenc
    Uma release do sistema é uma versão fina distribuída ao cliente. Cada release deve incorporar novas funcionalidades ou ser planejado para uma plataforma diferente de hardware. Há, normalmente, muito mais versões de um sistema do que liberações. As versões são criadas no âmbito da organização, para  desenvolvimentos ou testes internos, e não são previstas para serem liberadas para os clientes.
    
    **Abreviações:**
+   
+|Sigla               |Descrição       |
+|--------------------|-------------|
+|PGC | Planos de Gerenciamento da Configuração|
+|CCM | Comissão de controle de Mudança|
+|GC | Gerente de configuração|
+|ICS	| Item de Configuração de Software|
+|PT	| Plano de Teste|
  
-PGC Planos de Gerenciamento da Configuração
-
-CCM Comissão de controle de Mudança
-
-GC  Gerente de configuração
-
-ICS	Item de Configuração de Software
-
-PT	Plano de Teste
-
-
+    
 
 
 1.4 Referências
@@ -63,41 +61,69 @@ _[Esta subseção apresenta uma lista completa de todos os documentos mencionado
 ---------------
 
 
-      2 Gerenciamento de Configuração de Software
-          
-          Descreve os papeis , reponsabilidades, Ferramentas ,ambientes e infraestrutura necessarias para o projeto. 
+|Seção               |Descrição       |
+|--------------------|-------------|
+|2 Gerenciamento de Configuração de Software | Descreve os papeis , reponsabilidades, Ferramentas ,ambientes e infraestrutura necessarias para o projeto.|
+|3 O Programa de Gerenciamento de Configuração | Descreve como os artefatos do projeto devem ser nomeados , marcados e numerados, as baselines do projeto , os processos do controle de configuração e mudança.|
+|4 Padrões e Procedimentos | Esta seção descreve os padrões e procedimentos que serão seguidos no processo.|
+|5 Treinamento e Recursos	|  Esta seção descreve as ferramentas , e os treinamento necessarios à implementar as atividades do Controle de Mudanças.|
+|6 Auditorias de Configuração	|  Esta seção descreve o cronograma das auditorias de configuração e os itens que serão verificados.|
 
-      3 O Programa de Gerenciamento de Configuração
-          
-          Descreve como os artefatos do projeto devem ser nomeados , marcados e numerados, as baselines do projeto , os processos do controle de configuração e mudança.
-        
-      4 Padrões e Procedimentos
-      
-        Esta seção descreve os padrões e procedimentos que serão seguidos no processo.  
-  
-      5 Treinamento e Recursos
-      
-        Esta seção descreve as ferramentas , e os treinamento necessarios à implementar as atividades do Controle de Mudanças.
-      
-      6 Auditorias de Configuração
-    
-        Esta seção descreve o cronograma das auditorias de configuração e os itens que serão verificados.
+     
 2. Gerenciamento de Configuração de Software
 ============================================
 
 2.1 Organização, Responsabilidades e Interfaces
 ------------------------------------------------
-_[Descreva quem será o responsável pela execução das diversas atividades de Gerenciamento de Configuração (CM) descritas no Processo de CM.]_
+
+|Responsavél                |Atividades       |
+|--------------------|-------------|
+|Gerente do Projeto | Identificar Atividades do Processo,Identificar Responsáveis ,Integrar Plano de CGS ,Identificar Itens de Configuração,Identificar Responsáveis ,Analisar Pedido de Alteração ,Verificar Item de Software Alterado,Relatar Situação,Auditoria da Configuração ,Criar Baseline ,Entregar Baseline.|
+|Gerente de Configuração | Identificar Responsáveis,Identificar Responsáveis,Analisar Pedido de Alteração,Verificar Item de Software Alterado,Relatar Situação.|
+| Equipe de Desenvolvimento | Solicitar Alteração,Implementar Alteração,Relatar Situação.|
+
 
 2.2 Ferramentas, Ambiente e Infra-estrutura
 -------------------------------------------
-_[Descreva o ambiente de computação e as ferramentas de software a serem utilizadas para desempenhar as funções de CM em todo o ciclo de vida do projeto ou produto._
-_Descreva as ferramentas e os procedimentos necessários utilizados para o controle de versão dos itens de configuração gerados no ciclo de vida do projeto ou produto._
-_As questões envolvidas na configuração do ambiente de CM incluem:_
-* _tamanho previsto dos dados do produto_
-* _distribuição da equipe do produto_
-* _localização física dos servidores e clientes]_
+
+2.2.1	Ferramentas a serem utilizadas para a gerência de configuração
+
+
+|Ferramenta               |Descrição       |
+|--------------------|-------------|
+|GIT | Controle de versão - Repositorio : https://github.com/andrefabriciomateus/fa7-gcs-turma7 |
+|Whats up | Ferramenta de comunicação -  Grupo FA7|
+
+
+2.2.2	Configuração do software – Ferramentas do ambiente de desenvolvimento
  
+ 
+|Ferramenta               |Tipo       |Versão               |  
+|--------------------|-------------|------------------------|
+|Sistema Operacional |Windows 7 Professional|SP1|
+|Controle de Versão |GIT|Alterada Seção 2|
+|Editor de Texto|MS Word |2010|
+|Banco de Dados|Oracle|10G|
+|Plataforma de Desenvolvimento|Ferramenta: Eclipse IDE for Java and DSL Developers|Juno|
+|Relatórios|JasperReports|5.0.0|
+
+
+2.2.3	Estrutura do Ambiente
+
+|Ambiente              |Descrição       |Fluxo               |  
+|--------------------|-------------|------------------------|
+|Desenvolvimento |É o ambiente que servirá para o desenvolvimento do Sistema.|O componente atingirá a maturidade quando os requisitos forem supridos e testados pelos desenvolvedores através dos testes unitários.|
+|Teste |É o ambiente que servirá para os testes de integração.|Alterada Quando a comunicação entre os módulos atinge o um estágio satisfatório de funcionamento, ou seja, não deverão existir erros de integração entre os subsistemas.|
+|Banco de Dados|É o ambiente onde conterá o Banco de dados. |Ambiente que conterá o Banco de dados do sistema.|
+
+2.2.4	Configuração das maquinas dos ambientes
+
+|Ambiente              |Configuração Hardware       |Configuração Software              |  
+|--------------------|-------------|------------------------|
+|Desenvolvedor |Processador: 2.3 GHz Memória RAM: 2GB Hard Disk: 360 GB|Windows 7 Professional , Eclipse IDE / Java , MS Word.|
+|Teste |Processador: 2.3 GHz Memória RAM: 2GB Hard Disk: 360 GB|Windows 7 Professional , Eclipse IDE / Java , MS Word.|
+|Banco de Dados|Processador: 2.3 GHz Memória RAM: 6GB Hard Disk: 500 GB |Oracle 10G , Linux Redhat 5|
+
 
 
 3. O Programa de Gerenciamento de Configuração
