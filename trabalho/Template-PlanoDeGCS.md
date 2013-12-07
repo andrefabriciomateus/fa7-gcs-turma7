@@ -164,7 +164,9 @@ As baselines devem ser criadas de acordo com a tabela a seguir:
 --------------------------------------
 
 ### 3.2.1 Processamento e Aprovação de Solicitações de Mudança
-_[Descreva o processo pelo qual os problemas e as mudanças são submetidos, revisados e dispostos. Inclua como funciona a transição de estados de uma solicitação de mudança]_
+
+![diagrama.png](C:/Users/Fabricio/Desktop/diagrama.png "")
+
 
 ### 3.2.2 Comitê de Controle de Mudança (CCB)
 
