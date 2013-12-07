@@ -73,6 +73,37 @@ _As questões envolvidas na configuração do ambiente de CM incluem:_
 ---------------------------------
 ### 3.1.1 Métodos de Identificação
 ----------------------------------
+
+
+Todos os itens de configuração, com exceção do código fonte e de teste, devem ser identificados baseados na nomeclatura descrita a seguir:
+
+PROJETO_(ID_ARTEFATO)_DATA_Versão,
+
+onde: 
+PROJETO: É o nome do projeto;
+ID_ARTEFATO: É o código do item de configuração;
+DATA: É a data de criação do item de configuração, ou seja, é a data da primeira versão do item de configuração. O formato da data deve obedecer a regra: DDMMAAAA.
+
+Deve ser adotado o padrão de que todas as letras tem que serem escritas em caixa alta.
+
+Os itens de configuração são descritos com suas respectivas siglas abaixo:
+
+| Item de Configuração | Sigla	     
+|----------------------------------------------|-----------------------------|----------------------|
+|Diagrama de Caso de Uso|DCU|
+|Documento de Arquitetura|ARQ|
+|Diagrama de Caso de Uso|PP|
+|Diagrama de Caso de Uso|PM|
+|Diagrama de Caso de Uso|PGC|
+|Documento de Teste|DT|
+|Cronograma |CT|
+
+
+
+
+
+
+
 _[Descreva como os artefatos do projeto ou produto devem ser nomeados, marcados e numerados. O esquema de identificação deve abranger o hardware, o software do sistema, os produtos de terceiros (COTS) e todos os artefatos de desenvolvimento de aplicativos listados na estrutura de diretórios do produto; por exemplo, planos, modelos, componentes, software de teste, resultados e dados, executáveis e assim por diante.]_
 
 Inserindo linhas teste.
