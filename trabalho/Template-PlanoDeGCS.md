@@ -77,7 +77,7 @@ _As questões envolvidas na configuração do ambiente de CM incluem:_
 
 Todos os itens de configuração, com exceção do código fonte, devem ser identificados baseados na nomeclatura descrita a seguir:
 
-(PROJETO)(ID ARTEFATO)(DATA)(VERSAO)
+(PROJETO)(ID_ARTEFATO)(DATA)(VERSAO)
 
 onde: 
 
@@ -85,7 +85,7 @@ onde:
 | Nomenclatura | Descrição	     
 |----------------------------------------------|-----------------------------|----------------------|
 |Projeto|Nome do Projeto|
-|ID ARTEFATO |Código ou identificação do item de configuração|
+|ID_ARTEFATO |Código ou identificação do item de configuração|
 |Data|É a data de criação do item de configuração, ou seja, é a data da primeira versão do item de configuração. O formato da data deve obedecer a regra: DDMMAAAA.
 
 Deve ser adotado o padrão de que todas as letras tem que serem escritas em CAIXA ALTA.
@@ -152,7 +152,15 @@ As baselines devem ser criadas de acordo com a tabela a seguir:
 
 
 ### 3.1.4 Estrutura do Repositório de Versões
-_[Descreva a organização de diretórios do seu repositório e que itens/arquivos devem ser armazenados em cada diretório.]_
+
+| Diretório| Arquivos	     
+|----------------------------------------------|-----------------------------|----------------------|
+|/Projeto/Documentação/branches|Diagrama de Caso de Uso, Documento de Arquitetura, Plano de Teste, Diagrama de Classe|
+|/Projeto/Codigo_Fonte/branches|Código Fonte|
+|/Projeto/tags|Entregas de Release|
+
+
+
 
 3.2 Controle de Configuração e Mudança
 --------------------------------------
