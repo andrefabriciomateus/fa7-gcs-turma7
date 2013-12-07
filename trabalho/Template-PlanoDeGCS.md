@@ -139,8 +139,16 @@ Os itens de configuração são descritos com suas respectivas siglas abaixo:
 |Baseline de Releases|RELEASE_V (versão)|
 
 
+As baselines devem ser criadas de acordo com a tabela a seguir:
 
 
+| Baseline| Responsável na equipe	     | Itens |
+|----------------------------------------|-----------------------------|----------------------|
+|Requisitos| Analista de Requisitos|Diagrama de Casos de Uso|
+|Planejamento|Gerente de Projetos, Analista de Sistema |Diagrama de Classe, Documento de Arquitetura|
+|Desenvolvimento| Analista de Sistemas, Desenvolvedores|Código Fonte|
+|Testes| Analista de Testes|Plano de Teste|
+|Término do Projeto| Gerente de Projeto|Versão final (release) a ser entregue ao cliente|
 
 
 ### 3.1.4 Estrutura do Repositório de Versões
