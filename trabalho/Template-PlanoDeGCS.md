@@ -167,6 +167,16 @@ As baselines devem ser criadas de acordo com a tabela a seguir:
 
 ![daigrama](http://www.freeimagehosting.net/newuploads/xra99.png "")
 
+* Em análise: Solicitações de mudanças chegam e ficam aguradando serem analisadas.
+* Analisado: Ao serem avaliadas as mudanças podem seguir dois caminhos: 
+  - Recusada: Neste caso a mesma será arquivada e o fluxo se encerra.
+  - Aprovada: Caso seja aprovada, a mudança será desenvolvida e ficará no estado: Em Desenvolvimento.
+* Desenvolvido: Após serem realizadas as mudanças, tudo que foi modificado será testado.
+* Realização de Testes: As mudanças realizadas passarão por uma série de testes, para que a integridade dos requisitos não seja afetada negativamente, haverão dois cenários:
+ - Teste sem erro: Caso tudo ocorra como o esperado e as mudanças não afetem negativamente os requisitos, o cenário é encerrado com sucesso e a mudança é implantada.
+ - Teste com erro: Neste caso, houveram erros causados pelas novas mudanças e então a mesma será novamente analisada. Caso seja visto que não é mais viável continuar com a modificação, a mesma passa a ser arquivada. Caso contrário a modificação parte mais uma vez para o desenvolvimento.
+
+
 
 ### 3.2.2 Comitê de Controle de Mudança (CCB)
 
