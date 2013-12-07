@@ -92,30 +92,21 @@ Os itens de configuração são descritos com suas respectivas siglas abaixo:
 |----------------------------------------------|-----------------------------|----------------------|
 |Diagrama de Caso de Uso|DCU|
 |Documento de Arquitetura|ARQ|
-|Diagrama de Caso de Uso|PP|
-|Diagrama de Caso de Uso|PM|
-|Diagrama de Caso de Uso|PGC|
+|Código Fonte |CF|
 |Documento de Teste|DT|
 |Cronograma |CT|
 
 
-
-
-
-
-
-_[Descreva como os artefatos do projeto ou produto devem ser nomeados, marcados e numerados. O esquema de identificação deve abranger o hardware, o software do sistema, os produtos de terceiros (COTS) e todos os artefatos de desenvolvimento de aplicativos listados na estrutura de diretórios do produto; por exemplo, planos, modelos, componentes, software de teste, resultados e dados, executáveis e assim por diante.]_
-
-Inserindo linhas teste.
-
 ### 3.1.2 Itens de Configuração
-_[Relacionar os artefatos ou grupos de artefatos, separando por tipo, modulo ou subsistema, responsável ou momento em que deverão ser incluídos em baselines._
-* _“Inclusão em Baseline” em branco significa que o grupo de artefatos não participará de baseline. Pode ser expresso como uma data ou identificador de uma baseline, fase ou ponto de controle_
-* _“Responsável”: indicar nominalmente, sempre que possível]_
+
 
 | Item (ou Tipo de Item)                 | Responsável na equipe	     | Inclusão em Baseline |
 |----------------------------------------|-----------------------------|----------------------|
-|_&lt;grupo de itens de configuração&gt;_|_&lt;nome do responsável&gt;_|_&lt;momento a partir do qual o conjunto de artefatos será incluído em baseline&gt;_|
+|Diagrama de Caso de Uso||Após a aprovação do cliente|
+|Documento de Arquitetura|Arquiteto de Software||
+|Código Fonte|Líder Técnico e Programadores|Após todos os testes terem sidos realizados e o código for aprovado nestes testes|
+|Documento de Teste|Analista de Teste||
+|Cronograma|Gerente De Projetos|Software tenha atingido o objetivo final. Ou seja, ser entregue ao cliente e o mesmo esteja satisfeito com o que foi entregue|
 
 
 ### 3.1.3 Baselines do Projeto
