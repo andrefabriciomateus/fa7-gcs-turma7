@@ -160,8 +160,6 @@ As baselines devem ser criadas de acordo com a tabela a seguir:
 |/Projeto/tags|Entregas de Release|
 
 
-
-
 3.2 Controle de Configuração e Mudança
 --------------------------------------
 
@@ -169,7 +167,13 @@ As baselines devem ser criadas de acordo com a tabela a seguir:
 _[Descreva o processo pelo qual os problemas e as mudanças são submetidos, revisados e dispostos. Inclua como funciona a transição de estados de uma solicitação de mudança]_
 
 ### 3.2.2 Comitê de Controle de Mudança (CCB)
-_[Descreva a participação e os procedimentos para processar solicitações e aprovações de mudança a serem seguidos pelo CCB. Informe quem são os membros do CCB e suas responsabilidades.]_
+
+| Membro| Responsabilidade	     
+|----------------------------------------------|-----------------------------|----------------------|
+|Gerente de Projetos|O gerente será o mediador da reunião, realiza anotações e viabiliza as decisões.O gerente repassa a todos os outros integrantes que não fazem parte do comitê o que fora decidido.|
+|Analista de Testes|Irá avaliar se a mudança poderá ser incluída no plano de testes, de modo a não interferir de forma negativo os testes já planejados e realizados.|
+|Analista de Sitemas|Será a pessoa que irá analisar a complexidade de codificação da mudança. |
+|Analista de Requisitos|Irá avaliar cada mudança e decidirá se a mesma afetará de forma positiva ou negativa nos requisitos.|
 
 
 
