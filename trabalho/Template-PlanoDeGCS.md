@@ -165,7 +165,7 @@ As baselines devem ser criadas de acordo com a tabela a seguir:
 
 ### 3.2.1 Processamento e Aprovação de Solicitações de Mudança
 
-![diagrama.png](C:/Users/Fabricio/Desktop/diagrama.png "")
+![daigrama](http://www.freeimagehosting.net/newuploads/xra99.png "")
 
 
 ### 3.2.2 Comitê de Controle de Mudança (CCB)
