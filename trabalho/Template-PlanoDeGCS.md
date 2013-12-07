@@ -77,17 +77,31 @@ _As questões envolvidas na configuração do ambiente de CM incluem:_
 
 Todos os itens de configuração, com exceção do código fonte e de teste, devem ser identificados baseados na nomeclatura descrita a seguir:
 
-PROJETO_(ID_ARTEFATO)_DATA_Versão
+(PROJETO)(ID ARTEFATO)(DATA)(VERSAO)
 
 onde: 
 
-PROJETO: É o nome do projeto
 
-ID_ARTEFATO: É o código do item de configuração;
-
-DATA: É a data de criação do item de configuração, ou seja, é a data da primeira versão do item de configuração. O formato da data deve obedecer a regra: DDMMAAAA.
+| Nomenclatura | Descrição	     
+|----------------------------------------------|-----------------------------|----------------------|
+|Projeto|Nome do Projeto|
+|ID ARTEFATO |Código ou identificação do item de configuração|
+|Data|É a data de criação do item de configuração, ou seja, é a data da primeira versão do item de configuração. O formato da data deve obedecer a regra: DDMMAAAA.
 
 Deve ser adotado o padrão de que todas as letras tem que serem escritas em CAIXA ALTA.
+
+
+As versões do sistema devem ser geradas com o seguinte padrão:
+
+| Versões do sistema | Exemplo	     
+|----------------------------------------------|-----------------------------|----------------------|
+|Versão|x|
+|Release |xx|
+|Build|xxx|
+|Exemplo |x.xx.xxx|
+
+
+
 
 Os itens de configuração são descritos com suas respectivas siglas abaixo:
 
@@ -114,9 +128,19 @@ Os itens de configuração são descritos com suas respectivas siglas abaixo:
 
 ### 3.1.3 Baselines do Projeto
 
-_[As baselines funcionam como um padrão oficial no qual os trabalhos subseqüentes são baseados. Somente mudanças autorizadas podem ser efetuadas nas baselines._
-_Descreva em que pontos do ciclo de vida do projeto ou produto as baselines devem ser estabelecidas. As baselines mais comuns devem ser definidas ao final de cada uma das fases de Iniciação, Elaboração, Construção e Transição. Elas também podem ser geradas no final de iterações ocorridas dentro das várias fases ou com freqüência ainda maior._
-_Descreva quem autoriza uma baseline e o que ela contém.]_
+À cada nova baseline, a identificação da mesma deverá seguir o seguinte padrão:
+
+• Baseline de Documentos
+DOC_V_ <versão> 
+
+• Baseline de Código Fonte
+FONTE_V_ <versão>
+
+• Baseline de Releases
+RELEASE_V_ <versão>
+
+
+
 
 ### 3.1.4 Estrutura do Repositório de Versões
 _[Descreva a organização de diretórios do seu repositório e que itens/arquivos devem ser armazenados em cada diretório.]_
