@@ -77,14 +77,17 @@ _As questões envolvidas na configuração do ambiente de CM incluem:_
 
 Todos os itens de configuração, com exceção do código fonte e de teste, devem ser identificados baseados na nomeclatura descrita a seguir:
 
-PROJETO_(ID_ARTEFATO)_DATA_Versão,
+PROJETO_(ID_ARTEFATO)_DATA_Versão
 
 onde: 
-PROJETO: É o nome do projeto;
+
+PROJETO: É o nome do projeto
+
 ID_ARTEFATO: É o código do item de configuração;
+
 DATA: É a data de criação do item de configuração, ou seja, é a data da primeira versão do item de configuração. O formato da data deve obedecer a regra: DDMMAAAA.
 
-Deve ser adotado o padrão de que todas as letras tem que serem escritas em caixa alta.
+Deve ser adotado o padrão de que todas as letras tem que serem escritas em CAIXA ALTA.
 
 Os itens de configuração são descritos com suas respectivas siglas abaixo:
 
@@ -93,7 +96,7 @@ Os itens de configuração são descritos com suas respectivas siglas abaixo:
 |Diagrama de Caso de Uso|DCU|
 |Documento de Arquitetura|ARQ|
 |Código Fonte |CF|
-|Documento de Teste|DT|
+|Plano de Teste|PT|
 |Cronograma |CT|
 
 
@@ -102,11 +105,11 @@ Os itens de configuração são descritos com suas respectivas siglas abaixo:
 
 | Item (ou Tipo de Item)                 | Responsável na equipe	     | Inclusão em Baseline |
 |----------------------------------------|-----------------------------|----------------------|
-|Diagrama de Caso de Uso||Após a aprovação do cliente|
-|Documento de Arquitetura|Arquiteto de Software||
+|Diagrama de Caso de Uso|Analista de Requisitos|Após a aprovação do cliente|
+|Documento de Arquitetura|Arquiteto de Software|Arquitetura seja definida e aceita por todos envolvidos diretamente|
 |Código Fonte|Líder Técnico e Programadores|Após todos os testes terem sidos realizados e o código for aprovado nestes testes|
-|Documento de Teste|Analista de Teste||
-|Cronograma|Gerente De Projetos|Software tenha atingido o objetivo final. Ou seja, ser entregue ao cliente e o mesmo esteja satisfeito com o que foi entregue|
+|Plano de Teste| Analista de Teste|Documento deve ser revisado e cobrir 60% dos requisitos do projeto|
+|Cronograma|Gerente De Projetos|Projeto tenha atingido o objetivo final. Ou seja, ser entregue ao cliente e o mesmo esteja satisfeito com o que foi entregue|
 
 
 ### 3.1.3 Baselines do Projeto
