@@ -75,7 +75,7 @@ _As questões envolvidas na configuração do ambiente de CM incluem:_
 ----------------------------------
 
 
-Todos os itens de configuração, com exceção do código fonte e de teste, devem ser identificados baseados na nomeclatura descrita a seguir:
+Todos os itens de configuração, com exceção do código fonte, devem ser identificados baseados na nomeclatura descrita a seguir:
 
 (PROJETO)(ID ARTEFATO)(DATA)(VERSAO)
 
@@ -109,7 +109,7 @@ Os itens de configuração são descritos com suas respectivas siglas abaixo:
 |----------------------------------------------|-----------------------------|----------------------|
 |Diagrama de Caso de Uso|DCU|
 |Documento de Arquitetura|ARQ|
-|Código Fonte |CF|
+|Diagrama de Classes |DC|
 |Plano de Teste|PT|
 |Cronograma |CT|
 
@@ -121,8 +121,9 @@ Os itens de configuração são descritos com suas respectivas siglas abaixo:
 |----------------------------------------|-----------------------------|----------------------|
 |Diagrama de Caso de Uso|Analista de Requisitos|Após a aprovação do cliente|
 |Documento de Arquitetura|Arquiteto de Software|Arquitetura seja definida e aceita por todos envolvidos diretamente|
-|Código Fonte|Líder Técnico e Programadores|Após todos os testes terem sidos realizados e o código for aprovado nestes testes|
 |Plano de Teste| Analista de Teste|Documento deve ser revisado e cobrir 60% dos requisitos do projeto|
+|Diagrama de Classe| Analista de Sistemas|Toda a estrutura das classes deve ser aprovada por todos os analistas e pelo arquiteto de software|
+|Código Fonte|Líder Técnico e Programadores|Após todos os testes terem sidos realizados e o código for aprovado nestes testes|
 |Cronograma|Gerente De Projetos|Projeto tenha atingido o objetivo final. Ou seja, ser entregue ao cliente e o mesmo esteja satisfeito com o que foi entregue|
 
 
@@ -130,14 +131,14 @@ Os itens de configuração são descritos com suas respectivas siglas abaixo:
 
 À cada nova baseline, a identificação da mesma deverá seguir o seguinte padrão:
 
-• Baseline de Documentos
-DOC_V_ <versão> 
 
-• Baseline de Código Fonte
-FONTE_V_ <versão>
+| Baseline| Sigla	     
+|----------------------------------------------|-----------------------------|----------------------|
+|Baseline de Documento/Planos|DOC_V (versão)|
+|Baseline de Código Fonte|FONTE_V (versão)|
+|Baseline de Releases|RELEASE_V (versão)|
 
-• Baseline de Releases
-RELEASE_V_ <versão>
+
 
 
 
