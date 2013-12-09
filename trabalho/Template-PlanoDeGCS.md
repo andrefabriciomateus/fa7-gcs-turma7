@@ -276,10 +276,42 @@ Todos os repositórios e bancos de dados devem ser replicados. Onde ao termino d
 
 5. Treinamento e Recursos
 =========================
-teste
 
+    Descrição dos treinamentos efetuados para os integrantes da TeamUp.
+
+    Treinamento: Repositório
+    Objetivo: Repositório	Treinamento ensina como acessar o repositório através de uma máquina cliente, como dar os comandos principais do repositório,  como incluir novos itens dentro do repositório e também como remover do mesmo.	Gerente
+    Público Alvo: - Analista de Sistemas;
+                  - DBA;
+                  - Desenvolvedor.
+
+    Treinamento: Ferramentas	
+    Objetivo: Treinamento será mostrado os padrões da empresa e como é utilizada as seguintes ferramentas :Visual Basic.NET, desenvolvimento em camadas, Sql Server, criação de relatórios através do Crystal Reports 10.	Analista de Sistemas
+    Público Alvo: - DBA;
+                  - Desenvolvedor.
+
+    Treinamento: Processo de GC
+	Objetivo: Treinamento consiste em seguir os padrões de nomeclatura dos artefatos, as regras de inserção/alteração de baselines.. Processo para geração de releases e builds. Apresentação dos processos de Gerência de Mudança.	Gerente de Projeto
+     Público Alvo: - Gerente de Configuração;
+                   - Analista de Sistemas;
+                   - Desenvolvedor.
 
 
 6. Auditorias de Configuração
 =============================
-_[Descreva o cronograma das auditorias de configuração e o que será verificado. Informe também como serão reportados os problemas encontrados e onde sera feito o acompanhamento dos itens corretivos.]_
+	
+	As auditorias de configuração devem ser realizadas a cada entrega a fim de garantir que o processo de configuração estão sendo aplicados corretamente.
+	Auditorias de acompanhamento de projeto devem ser realizadas quando as seguintes atividades forem finalizadas:
+	
+	- Compreender o programa;
+    - Projetar as mudanças da feature 1;
+    - Implementação da feature 1;
+    - Testes de debug da feature 1;
+    - Projetar as mudanças da feature 2;
+    - Implementação da feature 2;
+    - Testes de debug da feature 2;
+    - Projetar as mudanças da refatoração;
+    - Implementação da refatoração;
+    - Testes de debug da refatoração.
+
+    Além disso, sempre que for necessário verificar como anda a taxa de defeitos detectados no teste a auditoria deve ser realizada.
