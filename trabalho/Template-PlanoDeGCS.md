@@ -2,7 +2,7 @@
 =================
 Plano de Gerenciamento de Configuração
 ======================================
-Versão 1.0
+Versão 5.0
 ------------------
 
 
@@ -15,6 +15,10 @@ Histórico de Versões
 |04/12/2013|1.0|Versão inicial|André Castro Alves
 |05/12/2013|2.0|Alteração Seção 2|André Castro Alves
 |06/12/2013|2.1|Finalizada Seção 2 |André Castro Alves
+|06/12/2013|3.0|Adicionada Seção 3 |Fabrício Melo
+|08/12/2013|3.1|Finalizada Seção 3 |Fabrício Melo
+|08/12/2013|4.0|Adicionada e Finalizada Seção 4 |Fabrício Melo
+|08/12/2013|5.0|Adicionada e Finalizada Seção 5 e 6 |Mateus Bastos
 
 
 1. Introdução
