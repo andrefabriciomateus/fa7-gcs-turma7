@@ -1,4 +1,4 @@
-<Nome do Projeto>
+﻿<Nome do Projeto>
 =================
 Plano de Gerenciamento de Configuração
 ======================================
@@ -191,12 +191,15 @@ As baselines devem ser criadas de acordo com a tabela a seguir:
 
 4. Padrões e Procedimentos
 ==========================
-_[Descreva os padrões e procedimentos que devem ser seguidos no projeto. Crie subseções se achar necessário, para organizá-los melhor.]_
-
-testando
 
 
-Testando
+Padrões de nomenclatura de código a serem utilizados ser os mesmos padrões de nomenclatura java.
+
+|Tipo| Regra abordada	     |
+|----------------------------------------|-----------------------------|----------------------|
+|Classe e interfaces|Nomes de classes e interfaces devem ter a primeira letra maiúscula, quando o nome é formado por varias palavras, a primeira letra de cada palavra deve ser maiúscula, este formato é conhecido como camelCase. Para classes, os nomes devem normalmente ser substantivos e para Interfaces normalmente são utilizados adjetivos.|
+|Métodos|Nos métodos, a primeira letra do nome deve ser minúscula e se for composta por outras palavras a forma camelCase deve ser utilizada também. Os nomes são formados geralmente por verbos e podem ser seguidos de substantivos.|
+|Variáveis|Como nos métodos, a primeira letra deve ser minúscula e se for composta por mais de uma palavra, o formato camelCase deve ser utilizado. É recomendado que as variáveis tenham nomes curtos e significativos e que não seja utilizado nome com apenas um carácter exceto para variáveis temporárias.|
 
 
 
