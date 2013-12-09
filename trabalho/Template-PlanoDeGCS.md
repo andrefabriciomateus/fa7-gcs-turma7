@@ -192,6 +192,8 @@ As baselines devem ser criadas de acordo com a tabela a seguir:
 4. Padrões e Procedimentos
 ==========================
 
+### 4.1 Padrão de nomenclatura de código
+
 
 Padrões de nomenclatura de código a serem utilizados ser os mesmos padrões de nomenclatura java.
 
