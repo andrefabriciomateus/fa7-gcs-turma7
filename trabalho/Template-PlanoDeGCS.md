@@ -213,7 +213,7 @@ Todos os repositórios e bancos de dados devem ser replicados. Onde ao termino d
 
 5. Treinamento e Recursos
 =========================
-_[Descreva as ferramentas de software, o pessoal e o treinamento necessários para implementar as atividades de CM especificadas.]_
+teste
 
 
 
