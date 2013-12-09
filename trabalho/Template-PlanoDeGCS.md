@@ -189,7 +189,6 @@ Os itens de configuração são descritos com suas respectivas siglas abaixo:
 
 ### 3.1.3 Baselines do Projeto
 
-<<<<<<< HEAD
 À cada nova baseline, a identificação da mesma deverá seguir o seguinte padrão:
 
 
@@ -210,8 +209,6 @@ As baselines devem ser criadas de acordo com a tabela a seguir:
 |Desenvolvimento| Analista de Sistemas, Desenvolvedores|Código Fonte|
 |Testes| Analista de Testes|Plano de Teste|
 |Término do Projeto| Gerente de Projeto|Versão final (release) a ser entregue ao cliente|
-=======
->>>>>>> 96ce6ace9e490c2ce2317e18c12aebc1b4f4762d
 
 
 ### 3.1.4 Estrutura do Repositório de Versões
