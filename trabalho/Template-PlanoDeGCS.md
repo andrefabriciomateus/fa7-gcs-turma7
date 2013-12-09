@@ -113,7 +113,7 @@ _[Descreva os padrões e procedimentos que devem ser seguidos no projeto. Crie s
 
 5. Treinamento e Recursos
 =========================
-teste
+testing
 
 
 
