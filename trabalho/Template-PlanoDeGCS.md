@@ -169,12 +169,12 @@ As baselines devem ser criadas de acordo com a tabela a seguir:
 
 * Em análise: Solicitações de mudanças chegam e ficam aguradando serem analisadas.
 * Analisado: Ao serem avaliadas as mudanças podem seguir dois caminhos: 
-  - Recusada: Neste caso a mesma será arquivada e o fluxo se encerra.
-  - Aprovada: Caso seja aprovada, a mudança será desenvolvida e ficará no estado: Em Desenvolvimento.
+      - Recusada: Neste caso a mesma será arquivada e o fluxo se encerra.
+      - Aprovada: Caso seja aprovada, a mudança será desenvolvida e ficará no estado: Em Desenvolvimento.
 * Desenvolvido: Após serem realizadas as mudanças, tudo que foi modificado será testado.
 * Realização de Testes: As mudanças realizadas passarão por uma série de testes, para que a integridade dos requisitos não seja afetada negativamente, haverão dois cenários:
- - Teste sem erro: Caso tudo ocorra como o esperado e as mudanças não afetem negativamente os requisitos, o cenário é encerrado com sucesso e a mudança é implantada.
- - Teste com erro: Neste caso, houveram erros causados pelas novas mudanças e então a mesma será novamente analisada. Caso seja visto que não é mais viável continuar com a modificação, a mesma passa a ser arquivada. Caso contrário a modificação parte mais uma vez para o desenvolvimento.
+     - Teste sem erro: Caso tudo ocorra como o esperado e as mudanças não afetem negativamente os requisitos, o cenário é encerrado com sucesso e a mudança é implantada.
+     - Teste com erro: Neste caso, houveram erros causados pelas novas mudanças e então a mesma será novamente analisada. Caso seja visto que não é mais viável continuar com a modificação, a mesma passa a ser arquivada. Caso contrário a modificação parte mais uma vez para o desenvolvimento.
 
 
 
@@ -202,6 +202,12 @@ Padrões de nomenclatura de código a serem utilizados ser os mesmos padrões de
 |Classe e interfaces|Nomes de classes e interfaces devem ter a primeira letra maiúscula, quando o nome é formado por varias palavras, a primeira letra de cada palavra deve ser maiúscula, este formato é conhecido como camelCase. Para classes, os nomes devem normalmente ser substantivos e para Interfaces normalmente são utilizados adjetivos.|
 |Métodos|Nos métodos, a primeira letra do nome deve ser minúscula e se for composta por outras palavras a forma camelCase deve ser utilizada também. Os nomes são formados geralmente por verbos e podem ser seguidos de substantivos.|
 |Variáveis|Como nos métodos, a primeira letra deve ser minúscula e se for composta por mais de uma palavra, o formato camelCase deve ser utilizado. É recomendado que as variáveis tenham nomes curtos e significativos e que não seja utilizado nome com apenas um carácter exceto para variáveis temporárias.|
+
+
+### 4.2 Procedimento de backup
+
+
+Todos os repositórios e bancos de dados devem ser replicados. Onde ao termino de cada baseline ou ao término de cada semana, é realizado um backup de todas as informações para um servidor a parte. Desta forma os dados poderão ficar armazenados de forma segura.
 
 
 
