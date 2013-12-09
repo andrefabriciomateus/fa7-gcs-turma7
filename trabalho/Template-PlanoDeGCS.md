@@ -214,6 +214,13 @@ As baselines devem ser criadas de acordo com a tabela a seguir:
 |Testes| Analista de Testes|Plano de Teste|
 |Término do Projeto| Gerente de Projeto|Versão final (release) a ser entregue ao cliente|
 
+O padrão de tags/label deve seguir o padrão:
+
+[release_x]
+
+Onde 'x' é um identificador para a mesma, um numeral.
+
+
 
 ### 3.1.4 Estrutura do Repositório de Versões
 
@@ -268,10 +275,19 @@ Padrões de nomenclatura de código a serem utilizados ser os mesmos padrões de
 |Variáveis|Como nos métodos, a primeira letra deve ser minúscula e se for composta por mais de uma palavra, o formato camelCase deve ser utilizado. É recomendado que as variáveis tenham nomes curtos e significativos e que não seja utilizado nome com apenas um carácter exceto para variáveis temporárias.|
 
 
+### 4.2 Padrão para criação de braches
+
+Será necessária a criação de um branch para cada módulo do sistema. O mesmo deve seguir a seguinte nomenclatura:
+
+[NOME_DO_MODULO], ou seja, cada branch receberá o nome do módulo a qual o branch será responsável.
+
+Cada líder de projeto juntamente com o gerente devem realizar a criação do mesmo. E a cada integração de módulos será realizado o merge.
+
 ### 4.2 Procedimento de backup
 
 
 Todos os repositórios e bancos de dados devem ser replicados. Onde ao termino de cada baseline ou ao término de cada semana, é realizado um backup de todas as informações para um servidor a parte. Desta forma os dados poderão ficar armazenados de forma segura.
+
 
 
 
