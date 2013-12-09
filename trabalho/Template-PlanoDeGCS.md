@@ -2,68 +2,128 @@
 =================
 Plano de Gerenciamento de Configuração
 ======================================
-Versão &lt;1.0&gt;
+Versão 1.0
 ------------------
 
-_[Observação: O template a seguir é fornecido para uso com o Rational Unified Process (RUP).  O texto exibido entre colchetes e em itálico foi incluído para orientar o autor e deve ser excluído antes da publicação do documento._
 
-_Este documento utiliza a formatação da linguagem [Markdown] (http://daringfireball.net/projects/markdown/). Você pode encontrar um guia de referência rápido [aqui] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).]_
 
 Histórico de Versões
 --------------------
 
 |Data                |Versão       |Descrição               |Autor          |
 |--------------------|-------------|------------------------|---------------|
-|_&lt;dd/mm/aaaa&gt;_|_&lt;1.0&gt;_|_&lt;Versão inicial&gt;_|_&lt;autor&gt;_|
-|_&lt;dd/mm/aaaa&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;autor&gt;_|
-
+|04/12/2013|1.0|Versão inicial|André Castro Alves
+|05/12/2013|2.0|Alteração Seção 2|André Castro Alves
+|06/12/2013|2.1|Finalizada Seção 2 |André Castro Alves
 
 
 1. Introdução
 ==============
 
-_[A introdução do Plano de Gerenciamento de Configuração  oferece uma visão geral de todo o documento. 
-Ela inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e uma visão geral deste
-Plano de Gerenciamento de Configuração.]_
 
 1.1 Finalidade
 ---------------
-_[Especifique a finalidade deste Plano de Gerenciamento de Configuração.]_
+
+Este Plano de Gerenciamento da Configuração (PGC) tem como finalidade descrever todas as atividades do Gerenciamento de Controle de Configuração e Mudança que serão executadas durante o ciclo de vida do projeto. Neste projeto será dado enfâse nas partes relacionadas a identificação da configuração que inclui: selecionar os itens de configuração, determinar o tipo de documentação, determinar o controle e permissão de acesso, definir identificadores, documentar a configuração de release e estabelecer a configuração dos baselines
 
 1.2 Escopo
 ----------
-_[Uma breve descrição do escopo deste Plano de Gerenciamento de Configuração; o modelo ao qual ele está associado e tudo o que é afetado ou influenciado por este documento.]_
+Este Plano de Gerenciamento de Configuração é destinado para todos os integrantes da Equipe do projeto CA - Controle de Auditoria e abrange todo o controle e gerenciamento da configuração do projeto.
 
 1.3 Definições, Acrônimos e Abreviações
 ---------------------------------------
-_[Esta subseção apresenta as definições de todos os termos, acrônimos e abreviações necessários para a correta interpretação do Plano de Gerenciamento de Configuração.  Essas informações podem ser fornecidas mediante referência ao Glossário do projeto.]_
+
+   Baseline é uma linha de referência composta por todos os itens de configuração
+de um projeto. O objetivo de uma baseline é servir de referência para o gerenciamento de mudanças de um projeto. Ela deve ser como uma fotografia capaz de descrever um projeto em um determinado instante de sua execução.
+
+   A criação de baselines pode ser realizada de acordo com os marcos do projeto ou de alguma outra forma definida pela gerência. A baseline é armazenada em um repositório de itens de configuração. E, a partir desse  momento, só pode ser alterado por meio de uma solicitação de alteração formal para controle de mudança.
+   
+   Uma release do sistema é uma versão fina distribuída ao cliente. Cada release deve incorporar novas funcionalidades ou ser planejado para uma plataforma diferente de hardware. Há, normalmente, muito mais versões de um sistema do que liberações. As versões são criadas no âmbito da organização, para  desenvolvimentos ou testes internos, e não são previstas para serem liberadas para os clientes.
+   
+   **Abreviações:**
+   
+|Sigla               |Descrição       |
+|--------------------|-------------|
+|PGC | Planos de Gerenciamento da Configuração|
+|CCM | Comissão de controle de Mudança|
+|GC | Gerente de configuração|
+|ICS	| Item de Configuração de Software|
+|PT	| Plano de Teste|
+ 
+    
+
 
 1.4 Referências
 ---------------
-_[Esta subseção apresenta uma lista completa de todos os documentos mencionados no Plano de Gerenciamento de Configuração. Identifique os documentos por título, número de relatório (se aplicável), data e organização responsável pela publicação. Especifique as fontes a partir das quais as referências podem ser obtidas. Essas informações podem ser fornecidas por um anexo ou outro documento.]_
+
 
 1.5 Visão Geral
 ---------------
-_[Esta subseção descreve o conteúdo restante do Plano de Gerenciamento de Configuração e explica como o documento está organizado.]_
 
 
+|Seção               |Descrição       |
+|--------------------|-------------|
+|2 Gerenciamento de Configuração de Software | Descreve os papeis , reponsabilidades, Ferramentas ,ambientes e infraestrutura necessarias para o projeto.|
+|3 O Programa de Gerenciamento de Configuração | Descreve como os artefatos do projeto devem ser nomeados , marcados e numerados, as baselines do projeto , os processos do controle de configuração e mudança.|
+|4 Padrões e Procedimentos | Esta seção descreve os padrões e procedimentos que serão seguidos no processo.|
+|5 Treinamento e Recursos	|  Esta seção descreve as ferramentas , e os treinamento necessarios à implementar as atividades do Controle de Mudanças.|
+|6 Auditorias de Configuração	|  Esta seção descreve o cronograma das auditorias de configuração e os itens que serão verificados.|
 
+     
 2. Gerenciamento de Configuração de Software
 ============================================
 
 2.1 Organização, Responsabilidades e Interfaces
 ------------------------------------------------
-_[Descreva quem será o responsável pela execução das diversas atividades de Gerenciamento de Configuração (CM) descritas no Processo de CM.]_
+
+|Responsavél                |Atividades       |
+|--------------------|-------------|
+|Gerente do Projeto | Identificar Atividades do Processo,Identificar Responsáveis ,Integrar Plano de CGS ,Identificar Itens de Configuração,Identificar Responsáveis ,Analisar Pedido de Alteração ,Verificar Item de Software Alterado,Relatar Situação,Auditoria da Configuração ,Criar Baseline ,Entregar Baseline.|
+|Gerente de Configuração | Identificar Responsáveis,Identificar Responsáveis,Analisar Pedido de Alteração,Verificar Item de Software Alterado,Relatar Situação.|
+| Equipe de Desenvolvimento | Solicitar Alteração,Implementar Alteração,Relatar Situação.|
+
 
 2.2 Ferramentas, Ambiente e Infra-estrutura
 -------------------------------------------
-_[Descreva o ambiente de computação e as ferramentas de software a serem utilizadas para desempenhar as funções de CM em todo o ciclo de vida do projeto ou produto._
-_Descreva as ferramentas e os procedimentos necessários utilizados para o controle de versão dos itens de configuração gerados no ciclo de vida do projeto ou produto._
-_As questões envolvidas na configuração do ambiente de CM incluem:_
-* _tamanho previsto dos dados do produto_
-* _distribuição da equipe do produto_
-* _localização física dos servidores e clientes]_
+
+2.2.1	Ferramentas a serem utilizadas para a gerência de configuração
+
+
+|Ferramenta               |Descrição       |
+|--------------------|-------------|
+|GIT | Controle de versão - Repositorio : https://github.com/andrefabriciomateus/fa7-gcs-turma7 |
+|Whats up | Ferramenta de comunicação -  Grupo FA7|
+
+
+2.2.2	Configuração do software – Ferramentas do ambiente de desenvolvimento
  
+ 
+|Ferramenta               |Tipo       |Versão               |  
+|--------------------|-------------|------------------------|
+|Sistema Operacional |Windows 7 Professional|SP1|
+|Controle de Versão |GIT|Alterada Seção 2|
+|Editor de Texto|MS Word |2010|
+|Banco de Dados|Oracle|10G|
+|Plataforma de Desenvolvimento|Ferramenta: Eclipse IDE for Java and DSL Developers|Juno|
+|Relatórios|JasperReports|5.0.0|
+
+
+2.2.3	Estrutura do Ambiente
+
+|Ambiente              |Descrição       |Fluxo               |  
+|--------------------|-------------|------------------------|
+|Desenvolvimento |É o ambiente que servirá para o desenvolvimento do Sistema.|O componente atingirá a maturidade quando os requisitos forem supridos e testados pelos desenvolvedores através dos testes unitários.|
+|Teste |É o ambiente que servirá para os testes de integração.|Alterada Quando a comunicação entre os módulos atinge o um estágio satisfatório de funcionamento, ou seja, não deverão existir erros de integração entre os subsistemas.|
+|Banco de Dados|É o ambiente onde conterá o Banco de dados. |Ambiente que conterá o Banco de dados do sistema.|
+
+2.2.4	Configuração das maquinas dos ambientes
+
+|Ambiente              |Configuração Hardware       |Configuração Software              |  
+|--------------------|-------------|------------------------|
+|Desenvolvedor |Processador: 2.3 GHz Memória RAM: 2GB Hard Disk: 360 GB|Windows 7 Professional , Eclipse IDE / Java , MS Word.|
+|Teste |Processador: 2.3 GHz Memória RAM: 2GB Hard Disk: 360 GB|Windows 7 Professional , Eclipse IDE / Java , MS Word.|
+|Banco de Dados|Processador: 2.3 GHz Memória RAM: 6GB Hard Disk: 500 GB |Oracle 10G , Linux Redhat 5|
+
 
 
 3. O Programa de Gerenciamento de Configuração
@@ -129,6 +189,7 @@ Os itens de configuração são descritos com suas respectivas siglas abaixo:
 
 ### 3.1.3 Baselines do Projeto
 
+<<<<<<< HEAD
 À cada nova baseline, a identificação da mesma deverá seguir o seguinte padrão:
 
 
@@ -149,6 +210,8 @@ As baselines devem ser criadas de acordo com a tabela a seguir:
 |Desenvolvimento| Analista de Sistemas, Desenvolvedores|Código Fonte|
 |Testes| Analista de Testes|Plano de Teste|
 |Término do Projeto| Gerente de Projeto|Versão final (release) a ser entregue ao cliente|
+=======
+>>>>>>> 96ce6ace9e490c2ce2317e18c12aebc1b4f4762d
 
 
 ### 3.1.4 Estrutura do Repositório de Versões
